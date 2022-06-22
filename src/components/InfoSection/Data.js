@@ -3,6 +3,10 @@ import svg2 from "../../images/galeria.svg";
 import svg3 from "../../images/cennik.svg";
 import svg4 from "../../images/contact.svg";
 
+export const listStyle = {
+  marginLeft: 60,
+};
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -11,7 +15,7 @@ export const homeObjOne = {
   topLine: "O nas",
   headline: "Przedszkole, które uczy samodzielności, daje wolność i zachęca do działania!",
   description:
-    "Pedagogikę Montessori łączymy z elementami przedszkola leśnego, którego podstawą jest ideologia pedagogiki waldorfskiej, autorstwa Steinera. Jej celem jest wspieranie wszechstronnego, holistycznego rozwoju dziecka w zakresie 3 stref: myślenia, uczuć i woli.",
+      "Pedagogikę Montessori łączymy z elementami przedszkola leśnego, którego podstawą jest ideologia pedagogiki waldorfskiej, autorstwa Steinera. Jej celem jest wspieranie wszechstronnego, holistycznego rozwoju dziecka w zakresie 3 stref: myślenia, uczuć i woli.",
   buttonLabel: "Zobacz nasze zdjęcia",
   imgStart: false,
   img: svg1,
@@ -47,7 +51,11 @@ export const homeObjThree = {
   topLine: "Cennik",
   headline: " ",
   description:
-    "1. Czesne: 950 zł za każdy miesiąc (na 2022 r.).",
+      <ol style={listStyle}>
+        <li>Coffee</li>
+        <li>1. Czesne: 950 zł za każdy miesiąc (na 2022 r.).</li>
+        <li>Milk</li>
+      </ol>,
   buttonLabel: "Skontaktuj się z nami",
   imgStart: false,
   img: svg3,

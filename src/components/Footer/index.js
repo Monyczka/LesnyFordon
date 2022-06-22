@@ -1,18 +1,15 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
+import {BsTelephone} from "react-icons/bs"
+import {IoMdPin} from "react-icons/io"
+import {SiFacebook} from "react-icons/si";
+
 import {
   FooterContainer,
   FooterLink,
   FooterLinkItems,
-  FooterLinkTitle,
   FooterLinksContainer,
   FooterLinksWrapper,
+  FooterLinkTitle,
   FooterWrap,
   SocialIconLink,
   SocialIcons,
@@ -21,6 +18,7 @@ import {
   SocialMediaWrap,
   WebsiteRights,
 } from "./FooterElements";
+
 const Footer = () => {
   return (
     <FooterContainer>
@@ -38,13 +36,6 @@ const Footer = () => {
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
-            {/* <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to="/"> Submit Video</FooterLink>
-              <FooterLink to="/"> Ambassadors</FooterLink>
-              <FooterLink to="/"> Agency</FooterLink>
-              <FooterLink to="/"> Influencer</FooterLink>
-            </FooterLinkItems> */}
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
               <FooterLink to="/"> Facebook</FooterLink>
@@ -61,19 +52,13 @@ const Footer = () => {
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink herf="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
+                <SiFacebook/>
               </SocialIconLink>
               <SocialIconLink herf="/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
+                <BsTelephone/>
               </SocialIconLink>
               <SocialIconLink herf="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink herf="/" target="_blank" aria-label="Linkedin">
-                <FaLinkedin />
-              </SocialIconLink>
-              <SocialIconLink herf="/" target="_blank" aria-label="Youtube">
-                <FaYoutube />
+                <IoMdPin/>
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
