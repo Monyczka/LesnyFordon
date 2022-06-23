@@ -14,9 +14,13 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "O nas",
-  headline: "Przedszkole, które uczy samodzielności, daje wolność i zachęca do działania!",
+  headline: "Wolność i samodzielność",
   description:
-      "Pedagogikę Montessori łączymy z elementami przedszkola leśnego, którego podstawą jest ideologia pedagogiki waldorfskiej, autorstwa Steinera. Jej celem jest wspieranie wszechstronnego, holistycznego rozwoju dziecka w zakresie 3 stref: myślenia, uczuć i woli.",
+  <ul style={listStyle}>
+  <li>Przedszkole, które uczy samodzielności, daje wolność i zachęca do działania!</li>
+  <li>Wartości edukacyjne: Duży nacisk kładzie się na szacunek do dziecka, jego indywidualność, wolność. Wspieranie dziecka w jego rozwoju, a nie wychowywanie. Stawia się na indywidulany rozwój w zgodzie z naturą, zakłada całościowe postrzeganie dziecka. Podstawą pracy wychowawczo-pedagogicznej są przykład i naśladowanie oraz rytm i powtarzanie.</li>
+  <li>Nasze przedszkole stwarza dzieciom warunki i możliwości do indywidualnej aktywności. Uczymy się tu poprzez swobodną zabawę, warsztaty, wykonujemy przedstawienia. Bardzo duże znaczenie ma również współpraca z rodzicami.</li>
+</ul>,
   buttonLabel: "O Montessori",
   imgStart: false,
   img: svg1,
@@ -54,11 +58,14 @@ export const homeObjThree = {
   topLine: "Cennik",
   headline: " ",
   description:
-      <ol style={listStyle}>
-        <li>Coffee</li>
-        <li>1. Czesne: 950 zł za każdy miesiąc (na 2022 r.).</li>
-        <li>Milk</li>
-      </ol>,
+      <ul style={listStyle}>
+        <li>Wpisowe: 250 zł jednorazowo (gwarancja miejsca; obejmuje przygotowanie stanowiska dla dziecka, materiały higieniczne, materiały plastyczne)</li>
+        <li>Czesne (opłata bezzwrotna): 950 zł za każdy miesiąc (na 2022 r.).</li>
+        <li>Zniżki: 8% na drugie dziecko w placówce, 15% na trzecie i kolejne dziecko w placówce</li>
+        <li>Wyżywienie: 16 zł - dzienna stawka żywieniowa za 4 posiłki: śniadanie, II śniadanie, dwudaniowy obiad, podwieczorek (możliwość ustalenia diety) </li>
+        <li> Opłaty dodatkowe: ubezpieczenie NNW 36 zł na rok</li>
+        <li> Zajęcia dodatkowe: j. angielski - 115 zł/msc.; j. niemiecki - 130 zł/msc./ j. hiszpański - 150zł/msc.</li>
+      </ul>,
   buttonLabel: "Skontaktuj się z nami",
   imgStart: false,
   img: svg3,
@@ -75,9 +82,9 @@ export const homeObjFour = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Kontakt",
-  headline: "Skontaktuj się z nami:",
+  headline: "Skontaktuj się z nami!",
   description:
-      "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.",
+      " Znajdziesz nas pod adresem: ul. Księdza Henryka Szumana 9. Numer kontaktowy: 530 373 377.",
   buttonLabel: "Wróć do początku",
   imgStart: false,
   img: svg4,
@@ -93,10 +100,10 @@ export const homeObjFive = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "pedagogika montessori",
-  headline: "JAJCA!",
+  topLine: "Pedagogika Montessori",
+  headline: "Dowiedz się więcej:",
   description:
-      "dupsko!",
+      "Pedagogikę Montessori łączymy z elementami przedszkola leśnego, którego podstawą jest ideologia pedagogiki waldorfskiej autorstwa Steinera. Jej celem jest wspieranie wszechstronnego, holistycznego rozwoju dziecka w zakresie 3 stref: myślenia, uczuć i woli.",
   buttonLabel: "Zobacz nasze zdjęcia",
   imgStart: false,
   img: svg5,
