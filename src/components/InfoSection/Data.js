@@ -2,6 +2,7 @@ import svg1 from "../../images/logo.svg";
 import svg2 from "../../images/galeria.svg";
 import svg3 from "../../images/cennik.svg";
 import svg4 from "../../images/contact.svg";
+import svg5 from "../../images/monte.svg";
 
 export const listStyle = {
   marginLeft: 60,
@@ -9,21 +10,22 @@ export const listStyle = {
 
 export const homeObjOne = {
   id: "about",
-  lightBg: false,
+  lightBg: true,
   lightText: true,
   lightTextDesc: true,
   topLine: "O nas",
   headline: "Przedszkole, które uczy samodzielności, daje wolność i zachęca do działania!",
   description:
       "Pedagogikę Montessori łączymy z elementami przedszkola leśnego, którego podstawą jest ideologia pedagogiki waldorfskiej, autorstwa Steinera. Jej celem jest wspieranie wszechstronnego, holistycznego rozwoju dziecka w zakresie 3 stref: myślenia, uczuć i woli.",
-  buttonLabel: "Zobacz nasze zdjęcia",
+  buttonLabel: "O Montessori",
   imgStart: false,
   img: svg1,
   alt: "Car",
   dark: true,
   primary: true,
   darkText: false,
-  direction: "discover"
+  direction: "monte",
+  big_picture: false,
 };
 
 export const homeObjTwo = {
@@ -41,7 +43,8 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
-  direction: "signup"
+  direction: "signup",
+  big_picture: false,
 };
 export const homeObjThree = {
   id: "signup",
@@ -63,7 +66,8 @@ export const homeObjThree = {
   dark: false,
   primary: false,
   darkText: true,
-  direction: "contact"
+  direction: "contact",
+  big_picture: false,
 };
 export const homeObjFour = {
   id: "contact",
@@ -81,5 +85,25 @@ export const homeObjFour = {
   dark: true,
   primary: true,
   darkText: false,
-  direction: "home"
+  direction: "home",
+  big_picture: false,
+};
+export const homeObjFive = {
+  id: "monte",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "pedagogika montessori",
+  headline: "JAJCA!",
+  description:
+      "dupsko!",
+  buttonLabel: "Zobacz nasze zdjęcia",
+  imgStart: false,
+  img: svg5,
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+  direction: "discover",
+  big_picture: true,
 };

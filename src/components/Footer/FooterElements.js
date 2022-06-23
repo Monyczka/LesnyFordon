@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
+
 export const FooterContainer = styled.div`
   background-color: white;
 `;
@@ -55,10 +56,10 @@ export const FooterLink = styled(Link)`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
-  &:hover {
-    color: #F4E231;
-    transition: 0.3s ease-out;
-  }
+  //&:hover {
+  //  color: #F4E231;
+  //  transition: 0.3s ease-out;
+  //}
 `;
 
 export const SocialMedia = styled.div`
