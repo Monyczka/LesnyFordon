@@ -1,36 +1,38 @@
 import React from "react";
-import { Button } from "../ButtonElement";
+import {Button} from "../ButtonElement";
 import {
-  InfoContainer,
-  InfoWrapper,
-  InfoRow,
-  Column1,
-  TextWrappeer,
-  TopLine,
-  Heading,
-  Column2,
-  Subtitle,
   BtnWrap,
+  Column1,
+  Column2,
+  Heading,
   Img,
   ImgWrap,
+  InfoContainer,
+  InfoRow,
+  InfoWrapper,
+  Subtitle,
+  TextWrappeer,
+  TopLine,
 } from "./InfoElements";
+
 const InfoSection = ({
   lightBg,
   lightText,
   id,
   imgStart,
-  topLine,
-  headline,
-  darkText,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  primary,
-  dark,
-  dark2,
-    direction
-}) => {
+                       topLine,
+                       headline,
+                       darkText,
+                       description,
+                       buttonLabel,
+                       img,
+                       alt,
+                       primary,
+                       dark,
+                       dark2,
+                       direction,
+                       big_picture,
+                     }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -60,7 +62,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <Img big_picture={big_picture} src={img} alt={alt}/>
               </ImgWrap>
             </Column2>
           </InfoRow>
